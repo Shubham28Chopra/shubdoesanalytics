@@ -7,7 +7,6 @@
 ## Education
 - Post Graduate, Data Analytics for Business Decision Making | The University of Texas at Dallas (_2023_)								       		
 - B. Eng. (Hons.), Electronics and Communications Engineering	| The University of Sheffield (_2013_)	 			        		
-- Foundation in Science & Engineering | Sheffield International College (_2009-10_)
 
 ## Work Experience (recent)
 **Consultant @ Global Innovation & Technology Alliance (GITA) (_September 2019 - December 2022_)**
