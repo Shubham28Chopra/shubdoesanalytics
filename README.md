@@ -27,12 +27,6 @@ I would recommend the AdaBoost model based on the comparative results. It's impo
 Since none of the models performed particularly well, adding hyperparameter tuning and enhancing ensemble diversity would improve the model by improving its generalization capability.
 ![BoxPlot and Voting Model](images/AdaBoost model.png)
 
-
- 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
-
 ### Possum regularization using optimized Lasso, Ridge, and Elastic Net models.
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
