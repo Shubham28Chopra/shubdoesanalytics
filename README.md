@@ -1,6 +1,6 @@
 # shubdoesanalytics.github.io
 
-# Data Analyst
+# Data Analyst with a background in engineering and business consulting
 
 #### Technical Skills: Python, R, Advanced Excel, Tableau, Power BI, Hadoop, JIRA, VISIO, and MS Office
 
@@ -11,7 +11,7 @@
 ## Work Experience (recent)
 **Consultant @ Global Innovation & Technology Alliance (GITA) (_September 2019 - December 2022_)**
 - Managed international industrial R&D funding programs, overseeing a 250,000 CAD budget while also conducting exploratory data analysis for 4500 Indian companies, cleaning and transforming data into actionable insights for the program design.
-- Led a team, coordinated annual innovation event, and facilitated India-Europe technology transfer under Horizon 2020.
+- Led a team, coordinated annual innovation events, and facilitated India-Europe technology transfer under Horizon 2020 call.
 
 **Canadian Technology Accelerator Analyst @ The High Commission of Canada (_January 2022 - August 2022_)**
 - Led Technology Accelerator program by selecting entities, conducting exploratory data analysis, and preprocessing industry data for program design.
@@ -19,8 +19,16 @@
 
 ## Projects
 ### Water potability analysis using Logistic Regression, Naïve Bayes, and Ada Boost models
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
+My client had requested assistance in predicting the potability of water and provided me with the water_potability.csv dataset which contained 2007 records and 10 features. This was a case of classification and was conducted in Python by preparing the models by splitting the data into a training and testing set, using the Isolation Forest technique to remove outliers, scaling the data to avoid weighted presence of any features, plotting the learning curves to understand the biases and variances, model analysis of Logistic Regression, Naïve Bayes, and AdaBoost models against their recall, running the optimized Logistic regression and Naïve Bayes model, and finally creating the voting model using voting classifies, repeated k-fold, and cross-validation. Here are my findings -
+
+I would recommend the AdaBoost model based on the comparative results. It's important to note that the performance differences are relatively small, suggesting that all three models are providing somewhat similar prediction capabilities on this dataset. AdaBoost model is known to be consistent, robust, and versatile and works well on various types of datasets  with fewer assumption requirements. Also, interpretations and explanations from this model are relatively easier.
+
+Since none of the models performed particularly well, adding hyperparameter tuning and enhancing ensemble diversity would improve the model by improving its generalization capability.
+![BoxPlot and Voting Model](images/AdaBoost model.png)
+
+
+ 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
@@ -28,18 +36,18 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 ### Possum regularization using optimized Lasso, Ridge, and Elastic Net models.
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+Used **Matlab** to train over 100 machine learning models that estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
 
 ![Bike Study](/assets/img/bike_study.jpeg)
 
-### Rasin categorization using Optimized Decision Trees, Random Forests, Logistical Regression and Discriminant Analysis (LDA and QDA)
+### Rasin categorization using Optimized Decision Trees, Random Forests, Logistical Regression, and Discriminant Analysis (LDA and QDA)
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
-### House price prediction using multivariate regression modelling
+### House price prediction using multivariate regression modeling
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
