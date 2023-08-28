@@ -1,10 +1,11 @@
-# Data Analyst with a background in engineering and business consulting
+# Data Analyst
+### with a background in engineering and business consulting
 
 #### Technical Skills: Python, R, Advanced Excel, Tableau, Power BI, Hadoop, JIRA, VISIO, and MS Office
 
 ## Education
-- Post Graduate, Data Analytics for Business Decision Making | The University of Texas at Dallas (_2023_)								       		
-- B. Eng. (Hons.), Electronics and Communications Engineering	| The University of Sheffield (_2013_)	 			        		
+- Post Graduate, Data Analytics for Business Decision Making | Durham College, Canada (_2023_)								       		
+- B. Eng. (Hons.), Electronics and Communications Engineering	| The University of Sheffield, U.K. (_2013_)	 			        		
 
 ## Work Experience (recent)
 **Consultant @ Global Innovation & Technology Alliance (GITA) (_September 2019 - December 2022_)**
@@ -16,11 +17,11 @@
 - Translated data into insights through dashboards and reports, automated pipelines, and facilitated market connections, focusing on Waste to Wealth, Deep Tech, Clean Tech, and Digital industries.
 
 ## Projects
-### Water potability analysis using Logistic Regression, Naïve Bayes, and Ada Boost models
+### Water potability analysis using Logistic Regression, Naïve Bayes, and Ada Boost models.
 
-My client had requested assistance in predicting the potability of water and provided me with the water_potability.csv dataset which contained 2007 records and 10 features. This was a case of classification and was conducted in Python by preparing the models by splitting the data into a training and testing set, using the Isolation Forest technique to remove outliers, scaling the data to avoid weighted presence of any features, plotting the learning curves to understand the biases and variances, model analysis of Logistic Regression, Naïve Bayes, and AdaBoost models against their recall, running the optimized Logistic regression and Naïve Bayes model, and finally creating the voting model using voting classifies, repeated k-fold, and cross-validation. Here are my findings -
+My client had requested assistance in predicting the potability of water and provided me with a dataset that contained 2007 records and 10 features. This was a case of classification and was conducted in **Python** by preparing the models by splitting the data into a training and testing set, using the Isolation Forest technique to remove outliers, scaling the data to avoid weighted presence of any features, plotting the learning curves to understand the biases and variances, model analysis of Logistic Regression, Naïve Bayes, and AdaBoost models against their recall, running the optimized Logistic regression and Naïve Bayes model, and finally creating the voting model using voting classifies, repeated k-fold, and cross-validation. Here are my findings and recommendations -
 
-I would recommend the AdaBoost model based on the comparative results. It's important to note that the performance differences are relatively small, suggesting that all three models are providing somewhat similar prediction capabilities on this dataset. AdaBoost model is known to be consistent, robust, and versatile and works well on various types of datasets  with fewer assumption requirements. Also, interpretations and explanations from this model are relatively easier.
+I would recommend the AdaBoost model based on the comparative results. It's important to note that the performance differences were relatively small, suggesting that all three models provide somewhat similar prediction capabilities on this dataset. AdaBoost model is known to be consistent, robust, and versatile and works well on various types of datasets  with fewer assumption requirements. Also, interpretations and explanations from this model are relatively easier.
 
 Since none of the models performed particularly well, adding hyperparameter tuning and enhancing ensemble diversity would improve the model by improving its generalization capability.
 ![BoxPlot and Voting Model](images/AdaBoost model.png)
@@ -33,7 +34,15 @@ Used **Matlab** to train over 100 machine learning models that estimated particu
 ![Bike Study](/assets/img/bike_study.jpeg)
 
 ### Rasin categorization using Optimized Decision Trees, Random Forests, Logistical Regression, and Discriminant Analysis (LDA and QDA)
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+
+I classified a categorization problem of segregating raisins using optimized Decision Trees, Random Forests, logistic regression, and discriminant analysis (LDA and QDA). 
+
+The dataset was balanced with 450 observations of each class. 
+![BoxPlot and Voting Model]images/Raisin classification.png)
+
+
+The supporting dataset was limited to only 900 observations and 8 features,
+Using , I conducted a predictive analysis to calculate the maximum likelihood of the target raisin type and can classify samples using either discrete or continuous data
 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
