@@ -19,41 +19,25 @@
 ## Projects
 ### Water potability analysis using Logistic Regression, Naïve Bayes, and Ada Boost models.
 
-My client had requested assistance in predicting the potability of water and provided me with a dataset that contained 2007 records and 10 features. This was a case of classification and was conducted in **Python** by preparing the models by splitting the data into a training and testing set, using the Isolation Forest technique to remove outliers, scaling the data to avoid weighted presence of any features, plotting the learning curves to understand the biases and variances, model analysis of Logistic Regression, Naïve Bayes, and AdaBoost models against their recall, running the optimized Logistic regression and Naïve Bayes model, and finally creating the voting model using voting classifies, repeated k-fold, and cross-validation. Here are my findings and recommendations -
-
-I would recommend the AdaBoost model based on the comparative results. It's important to note that the performance differences were relatively small, suggesting that all three models provide somewhat similar prediction capabilities on this dataset. AdaBoost model is known to be consistent, robust, and versatile and works well on various types of datasets  with fewer assumption requirements. Also, interpretations and explanations from this model are relatively easier.
+My client had requested assistance in predicting the potability of water and provided me with a dataset that contained 2007 records and 10 features. This was a case of classification and was conducted in **Python** by preparing the models by splitting the data into a training and testing set, using the Isolation Forest technique to remove outliers, scaling the data to avoid weighted presence of any features, plotting the learning curves to understand the biases and variances, model analysis of Logistic Regression, Naïve Bayes, and AdaBoost models against their recall, running the optimized Logistic regression and Naïve Bayes model, and finally creating the voting model using voting classifies, repeated k-fold, and cross-validation.
+Based on my findings, I recommended the AdaBoost model based on the comparative results. It's important to note that the performance differences were relatively small, suggesting that all three models provide somewhat similar prediction capabilities on this dataset. AdaBoost model is known to be consistent, robust, and versatile and works well on various types of datasets  with fewer assumption requirements. Also, interpretations and explanations from this model are relatively easier.
 
 Since none of the models performed particularly well, adding hyperparameter tuning and enhancing ensemble diversity would improve the model by improving its generalization capability.
 ![BoxPlot and Voting Model](images/AdaBoost model.png)
 
 ### Possum regularization using optimized Lasso, Ridge, and Elastic Net models.
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
-
-Used **Matlab** to train over 100 machine learning models that estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
-
-![Bike Study](/assets/img/bike_study.jpeg)
 
 ### Rasin categorization using Optimized Decision Trees, Random Forests, Logistical Regression, and Discriminant Analysis (LDA and QDA)
 
-I classified a categorization problem of segregating raisins using optimized Decision Trees, Random Forests, logistic regression, and discriminant analysis (LDA and QDA). 
-
-The dataset was balanced with 450 observations of each class. 
-![BoxPlot and Voting Model]images/Raisin classification.png)
-
-
-The supporting dataset was limited to only 900 observations and 8 features,
-Using , I conducted a predictive analysis to calculate the maximum likelihood of the target raisin type and can classify samples using either discrete or continuous data
-
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+I classified a categorization problem of segregating raisins using optimized Decision Trees, Random Forests, Logistic Regression, and Discriminant Analysis (LDA and QDA) using **Python**. Out of all, the Optimized QDA showed the best performance with an 89% accuracy, a higher precision of 96% for Besni in comparison to 84% for the Kecimen class. This is a measure of correctly predicting positive samples relative to the total samples predicted as positive.
+The dataset had only 900 observations. Although difficult to monitor the collection of data, and expensive, a larger and normally distributed dataset would suffice the assumption for both LDA and QDA (better-performing models).
+![Raisin Classification](images/Raisin classification.png)
 
 ### House price prediction using multivariate regression modeling
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+My client was curious to know the housing price prediction in a neighborhood using a multiple regression model in **Python**. Unfortunately, the model was not feasible as the RMSE and MAE both were greater than 10% of the mean price i.e., 68,121.59. Regularization techniques such as Lasso or Ridge could possibly help improve the model's performance.
+![Housing prices prediction using linear regression](/Housing prices - Linear regression.png)
+Using feature engineering, selecting appropriate features or a combination of features could result in an improved model. For example, exploring a combination of the basement & garage together as a variable could possibly give us further insights. Additionally collecting more data: This dataset only compromises of 546 observations. A larger dataset would be helpful in training the model and would also provide us with a bigger test set, which in return would give us a more accurate representation of the underlying patterns in the data.
 
 ### Multi Regression Analysis on the effect of smoking on one’s expenses
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
