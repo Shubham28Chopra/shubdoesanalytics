@@ -27,6 +27,12 @@ Since none of the models performed particularly well, adding hyperparameter tuni
 
 ### Possum regularization using optimized Lasso, Ridge, and Elastic Net models.
 
+### Advertising Analysis for Apple
+
+Apple recently launched a new advertisement to boost sales of the new Apple product. At the moment, ad1 sells an average of 30,000 pieces per week. Apple has compiled the Ad2 sales information over the last 15 weeks and wanted to see if the average sales for Ad2 are 30,000 units and test the impact on sales from Ad2.
+Using **R**, I conducted the t-Test and concluded that since the p-value 9.651 x 10-5 was lower than α i.e., 0.05, we have strong evidence to reject the null hypothesis that that the average mean sale was 30,000 units.
+![Apple ad analysis](images/Apple ad analysis - 1 sample t test.png)
+
 ### Rasin categorization using Optimized Decision Trees, Random Forests, Logistical Regression, and Discriminant Analysis (LDA and QDA)
 
 I classified a categorization problem of segregating raisins using optimized Decision Trees, Random Forests, Logistic Regression, and Discriminant Analysis (LDA and QDA) using **Python**. Out of all, the Optimized QDA showed the best performance with an 89% accuracy, a higher precision of 96% for Besni in comparison to 84% for the Kecimen class. This is a measure of correctly predicting positive samples relative to the total samples predicted as positive.
@@ -46,7 +52,7 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
-### Linear regression analysing stock returns
+### Linear regression analyzing stock returns
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
@@ -60,12 +66,8 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
-### Advertising Analysis for Apple
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
 ### Graphical analysis on Detrimental effects of smoking
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
