@@ -36,7 +36,7 @@ The dataset had only 900 observations. Although difficult to monitor the collect
 ### House price prediction using multivariate regression modeling
 
 My client was curious to know the housing price prediction in a neighborhood using a multiple regression model in **Python**. Unfortunately, the model was not feasible as the RMSE and MAE both were greater than 10% of the mean price i.e., 68,121.59. Regularization techniques such as Lasso or Ridge could possibly help improve the model's performance.
-![Housing prices prediction using linear regression](/Housing prices - Linear regression.png)
+![Housing prices prediction using linear regression](images/Housing prices - Linear regression.png)
 Using feature engineering, selecting appropriate features or a combination of features could result in an improved model. For example, exploring a combination of the basement & garage together as a variable could possibly give us further insights. Additionally collecting more data: This dataset only compromises of 546 observations. A larger dataset would be helpful in training the model and would also provide us with a bigger test set, which in return would give us a more accurate representation of the underlying patterns in the data.
 
 ### Multi Regression Analysis on the effect of smoking on one’s expenses
