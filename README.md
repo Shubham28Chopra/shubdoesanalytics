@@ -46,42 +46,24 @@ My client was curious to know the housing price prediction in a neighborhood usi
 Using feature engineering, selecting appropriate features or a combination of features could result in an improved model. For example, exploring a combination of the basement & garage together as a variable could possibly give us further insights. Additionally collecting more data: This dataset only compromises of 546 observations. A larger dataset would be helpful in training the model and would also provide us with a bigger test set, which in return would give us a more accurate representation of the underlying patterns in the data.
 
 ### Multi Regression Analysis on the effect of smoking on one’s expenses
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+To analyze the effect of smoking on one’s expenses I conducted an analysis using **R**. Starting off with a Histogram (to check the skewness, variance, and distribution of the expenses), I conducted a t-Test, and analyzed the data set using a simple linear regression model (to analyze the effect of smoking on expenses to check the establishment of a relationship, validity of the model, and predict), and a multiple linear regression model (to analyze the effect of all input variables on expenses).
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+Based on our performance measures, specifically the p-value, I concluded that since our p-value i.e., 2 x 10e-16 is smaller than the significance level 0.05, I reject the null hypothesis H_0 and conclude that there is a correlation between the variables. At least 1 of the independent variables (if not more) is correlated with the dependent output variable.
 
-### Linear regression analyzing stock returns
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+![Smoking expenses](images/Smoking expenses.png)
+Model equation: Y(expenses) = -11942 + 257*age + b2*sex + 339*bmi + 476*no.ofchildren + b5*smokeryes + b6*region
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
-
-### Chi-Squared Analysis on a car related database
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
-
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
-
-
-
-
-### Graphical analysis on Detrimental effects of smoking
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
-
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+The t-test revealed that at a 5% significance level, we have enough evidence that the mean expenses are not 10,000 units.
+The simple linear regression model showed that at a 5% significance level, the model was not statically significant and there is indeed a relationship between the smoker variable and the output expense variable.
+The multiple linear regression model showed that at a 5% significance level, the model IS statically significant and there is indeed a relationship between the input independent variables age, bmi, children, smokeryes, regionsoutheast, and regionsouthwest and the output expense variable.
 
 ### Canadian Crime Analysis Report for The Royal Canadian Mounted Police
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
-
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+This analysis highlights the utilization of **Power BI** to create professional visualizations for crime analysis for the Royal Canadian Mounted Police (RCMP). This could help improve the collaboration and support with provincial police departments in Ontario, Quebec, and British Columbia.
+![Canadian Crime Analysis](images/Robbery forecast.png)
+*Insights*: Ontario showcased the highest crime rates, followed closely by Quebec and British Columbia. Cities such as Toronto, Montreal, and Vancouver consistently report the highest crime rates within their respective provinces. Additionally, a strong positive correlation in Quebec and Ontario was observed.
+![Canadian Crime Analysis](images/Robbery analysis correlation.png)
+Forecasts conducted for the year ahead suggest a further decline in crime rates for Quebec, a moderate increase for Ontario, and a stable trend for British Columbia. The stability in crime rates should enable law enforcement agencies in British Columbia to focus on maintaining current crime prevention strategies and addressing specific localized issues.
 
 ### Predicting standardized scores post-training for students
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
@@ -146,7 +128,7 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
-### Profit & Loss analysis for a sample super store
+### Profit & Loss analysis for a sample superstore
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
@@ -156,6 +138,11 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 
 
 
+
+### Additional projects -
+Linear regression analyzing stock returns
+Chi-Squared Analysis on a car-related database
+Graphical analysis on Detrimental effects of smoking
 
 
 
