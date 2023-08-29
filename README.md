@@ -4,7 +4,7 @@
 #### Technical Skills: Python, R, Advanced Excel, Tableau, Power BI, Hadoop, JIRA, VISIO, and MS Office
 
 ## Education
-- Post Graduate, Data Analytics for Business Decision Making | Durham College, Canada (_2023_)								       		
+- Post Graduate, Data Analytics for Business Decision Making, 4.89 GPA | Durham College, Canada (_2023_)								       		
 - B. Eng. (Hons.), Electronics and Communications Engineering	| The University of Sheffield, U.K. (_2013_)	 			        		
 
 ## Work Experience (recent)
