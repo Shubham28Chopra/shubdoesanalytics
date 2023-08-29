@@ -19,7 +19,7 @@
 ## Projects
 
 ## Executive Conference Pitch (academic)
-[Executive conference pitch to enhance tourism in India (2023) aided by analytics](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA](https://youtu.be/i8wqwx-wp0I)
+[Executive conference pitch to enhance tourism in India (2023) aided by analytics](https://youtu.be/i8wqwx-wp0I)
 
 ### Water potability analysis using Logistic Regression, Naïve Bayes, and Ada Boost models.
 
