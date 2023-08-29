@@ -20,7 +20,7 @@
 
 ## Executive Conference Pitch (academic)
 Executive conference pitch to enhance tourism in India (2023) aided by analytics.
-- [Shubham Chopra YouTube]([https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA](https://youtu.be/i8wqwx-wp0I))
+[Shubham Chopra YouTube]([https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA](https://youtu.be/i8wqwx-wp0I))
 
 ### Water potability analysis using Logistic Regression, Naïve Bayes, and Ada Boost models.
 
@@ -33,7 +33,7 @@ Since none of the models performed particularly well, adding hyperparameter tuni
 ### Tulip Executive Health Group Data Analysis
 This report was intended to highlight insights for the Tulip Healthcare Group’s senior management team derived from the company’s 2021 data.
 Tulip Healthcare Group employs 800-1200 individuals across Canada and partners with caregivers for a patient-centered service. With a mission to deliver a patient-oriented service, Tulip Healthcare Group provides in-person and virtual healthcare services across major provinces in Canada to company executives, athletes, and their family members. They offer services like annual health assessments, general testing, medical appointments, and therapy.
-![HR Analysis](images/Tulip healthcare analytics dashboard.png)
+![HR Analysis](images/HR Analysis overall.png)
 Tools used: **Tableau**
 This report covered the following-
 - Key Performance Questions
@@ -51,7 +51,7 @@ Forecasts conducted for the year ahead suggest a further decline in crime rates 
 
 ### HR Data Analysis
 I created a dynamic dashboard in **Tableau** for an HR department of a company which monitored several KPIs such as attrition, job satisfaction rating, role-wise income, and number of employees by age group.
-![HR Analysis](images/HR analysis overall.png)
+![HR Analysis](images/HR Analysis overall.png)
 Addressing the company's concern for in-depth insights, I concluded that in this company males attrite more, and the monthly salary and the job satisfaction rating were positively correlated. As the monthly salary increases, the job satisfaction increases. Job satisfaction ratings and department-wise attrition were not correlated, as falsely assumed.
 
 ### Advertising Analysis for Apple
@@ -86,18 +86,16 @@ Using feature engineering, selecting appropriate features or a combination of fe
 
 
 ### Additional projects -
-Linear regression analyzing stock returns
-Chi-squared analysis on a car-related database
-Graphical analysis on Detrimental effects of smoking
-Possum regularization using optimized Lasso, Ridge, and Elastic Net models.
+- Linear regression analyzing stock returns using **R**
+- Chi-squared analysis on a car-related database using **R**
+- Graphical analysis on Detrimental effects of smoking using **Tableau**
+- Possum regularization using optimized Lasso, Ridge, and Elastic Net models using **Python**
+- Profit and loss analysis for a sample superstore using **Tableau**
+- Predicting standardized scores post-training for students using **Python**
+- Response model to enhance marketing campaigns using **Python**
+- Predictive Modelling (regression models) for the weight of fish using **Python**
+- Predictive Modelling for rice identification using Decision Trees using **Python**
+- Infant Mortality Analysis using **Python**
 
-Profit & Loss analysis for a sample superstore
-
-Predicting standardized scores post-training for students
-Response model to enhance marketing campaigns
-Predictive Modelling (regression models) for the weight of fish
-Predictive Modelling for rice identification using Decision Trees
-Infant Mortality Analysis
-
-ETL using Spark Streaming and Kafka
-Analyzing New York City 311 Calls using Spark Structured API
+- ETL using **Spark Streaming** and **Kafka**
+- Analyzing New York City 311 Calls using **Spark Structured API**
