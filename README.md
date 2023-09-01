@@ -1,4 +1,4 @@
-# Data Analyst
+# Analyst
 ### with a background in engineering and business consulting
 
 #### Technical Skills: Python, R, Advanced Excel, Tableau, Power BI, Hadoop, JIRA, VISIO, and MS Office
